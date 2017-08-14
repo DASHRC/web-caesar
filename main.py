@@ -49,5 +49,5 @@ def encrypt():
     encrypted_string = rotate_string(mytext, rotation)
     return form.format(encrypted_string)
 
-
+#mock
 app.run()
