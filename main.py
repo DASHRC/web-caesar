@@ -14,8 +14,8 @@ form = """
                 padding: 20px;
                 margin: 0 auto;
                 width: 540px;
-                font: 16px sans-serif;
-                border-radius: 10px;
+                font: 20px sans-serif;
+                border-radius: 20px;
             }}
             textarea {{
                 margin: 10px 0;
@@ -26,7 +26,7 @@ form = """
     </head>
     <body>
         <form method="POST">
-            <label>Rotate by:
+            <label>Rotations:
                 <input name="rot" type="text" value="0"/>
             </label>
             <br>
